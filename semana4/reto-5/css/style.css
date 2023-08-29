@@ -1,0 +1,353 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Alata",sans-serif;
+}
+
+.principal__section{
+    background: url("/semana4/reto-5/assets/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav__list{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    color: #fff;
+}
+
+.hero > div{
+    border: solid #fff;
+    padding: 20px;
+    width: 35%;
+    margin-top: 100px;
+    word-wrap: break-word;
+}
+
+.hero >div> h1{
+    
+    color: #fff;
+    font-weight: normal;
+    font-size: 60px;
+    
+}
+
+main{
+    width: 1040px;
+    margin: auto;
+}
+
+.article__section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.article__container{
+    align-self: end;
+    width: 35%;
+    margin-left: -150px;
+    background-color: #fff;
+    padding: 60px 60px 0 60px;
+
+}
+
+.article__container h2{
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    padding-bottom: 40px;
+}
+
+.gallery__title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.gallery__title h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.gallery__title button{
+    background-color: #fff;
+    height: 50px;
+    width: 100px;
+    padding: 10px 30px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 40vh);
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+
+.gallery div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+}
+
+.gallery__title button:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.gallery div:hover{
+    color: #000;
+    box-shadow: inset 0 0 0 1000px rgba(225, 225, 225,0.8);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.earth{
+    background: url("/semana4/reto-5/assets/desktop/image-deep-earth.jpg");
+}
+
+.arcade{
+    background: url("/semana4/reto-5/assets/desktop/image-night-arcade.jpg");
+}
+
+.soccer{
+    background: url("/semana4/reto-5/assets/desktop/image-soccer-team.jpg");
+}
+
+.car{
+    background: url("/semana4/reto-5/assets/desktop/image-grid.jpg");
+}
+
+.trip{
+    background: url("/semana4/reto-5/assets/desktop/image-from-above.jpg");
+}
+
+.sky{
+    background: url("/semana4/reto-5/assets/desktop/image-pocket-borealis.jpg");
+}
+
+.mars{
+    background: url("/semana4/reto-5/assets/desktop/image-curiosity.jpg");
+}
+
+.wave{
+    background: url("/semana4/reto-5/assets/desktop/image-fisheye.jpg");
+}
+
+.gallery div h3{
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    width: 20%;
+}
+
+.footer{
+    background-color: #000;
+    display: flex;
+    height: 20vh;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer__margin{
+    width: 1040px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.footer__line__1{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.footer__line__1 img{
+    width: 150px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+
+.footer__list{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.footer__line__2{
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.footer__icons{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin-bottom: 20px;
+    
+}
+
+
+
+@media screen and (max-width: 600px){
+
+    .principal__section{
+        padding: 20px;
+        background: url("/semana4/reto-5/assets/mobile/image-hero.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 80vh;
+    }
+
+    .nav__list{
+        display: none;
+    }
+
+    .hero div{
+        width: auto;
+    }
+
+    .hero div h1{
+        font-size: 45px;
+    }
+
+    .main{
+        width: 375px;
+    }
+    .article__section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article__section > div >img {
+        width: 340px;
+    }
+
+    .article__container{
+        margin-left: 0;
+        padding: 0;
+        width: 100%;
+        margin-top: 40px;
+        text-align: center;
+
+    }
+
+    .article__container h2{
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+
+    .article__container p{
+        width: 340px;
+        margin: auto;
+    }
+
+    .gallery__title{
+        justify-content: center;
+    }
+
+    .gallery__title button {
+        display: none;
+    }    
+
+    .gallery{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 20vh);
+        margin: 20px;
+    }
+    
+    .gallery div h3{
+        font-size: 26px;
+        width: 50px;
+    }
+
+    .earth{
+        background: url("/semana4/reto-5/assets/mobile/image-deep-earth.jpg");
+    }
+    
+    .arcade{
+        background: url("/semana4/reto-5/assets/mobile/image-night-arcade.jpg");
+    }
+    
+    .soccer{
+        background: url("/semana4/reto-5/assets/mobile/image-soccer-team.jpg");
+    }
+    
+    .car{
+        background: url("/semana4/reto-5/assets/mobile/image-grid.jpg");
+    }
+    
+    .trip{
+        background: url("/semana4/reto-5/assets/mobile/image-from-above.jpg");
+    }
+    
+    .sky{
+        background: url("/semana4/reto-5/assets/mobile/image-pocket-borealis.jpg");
+    }
+    
+    .mars{
+        background: url("/semana4/reto-5/assets/mobile/image-curiosity.jpg");
+    }
+    
+    .wave{
+        background: url("/semana4/reto-5/assets/mobile/image-fisheye.jpg");
+    }
+
+    .footer{
+        background-color: #000;
+        height: 80vh;
+        display: flex;
+        
+    }
+    
+    .footer__margin{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__line__1{
+        text-align: center;
+        margin: auto;
+    }
+
+    .footer__list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__line__2{
+        text-align: center;
+    }
+
+    .footer__icons{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+}

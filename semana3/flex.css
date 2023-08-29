@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    /* al usar display flex activamos justify-content */
+    display: flex;
+
+    /* para alinear elementos de forma horizontal */
+    justify-content: center;
+
+    /* para alinear elementos de forma vertical */
+    align-items: center;
+
+    height: 100vh;
+    
+    border: solid rebeccapurple;
+    
+}
+
+div{
+    border: solid;
+
+    height: 100px;
+
+    width: 100px;
+
+    margin: 10px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+
+}

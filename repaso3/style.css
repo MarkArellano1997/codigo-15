@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 1000px;
+    margin: 32px auto;
+    background-color: green;
+    display: flex;
+    gap: 16px;
+}
+
+article{
+    border: 1px solid red;
+    width: 300px;
+    padding: 16px;
+    z-index: 10;
+}
+
+.anuncio1{
+    background-color: blueviolet;
+    position: relative;
+    /* top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; */
+    bottom: -10px;
+    left: 20px;
+    z-index: 20;
+}
+
+.anuncio2{
+    background-color: chocolate;
+    position: absolute;
+    bottom: 50px;
+    right: ;
+}
+
+header{
+    background-color: aquamarine;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 30;
+    height: 40px;
+}
+
+.nav1{
+    background-color: brown;
+    height: 45px;
+    position: sticky;
+    top: 40px;
+}
+
+.nav2{
+    background-color: yellow;
+    height: 45px;
+    position: sticky;
+    top: 80px;
+}

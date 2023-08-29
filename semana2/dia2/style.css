@@ -1,0 +1,178 @@
+h1{
+    color: blueviolet;
+}
+
+.selector-clase{
+    color: brown;
+}
+
+#selector-id{
+    color: blue;
+}
+
+button{
+    background-color: red;
+    padding: 10px;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    transition: all 1.5s ease;
+}
+
+button:hover{
+    background-color: aqua;
+    padding-left: 2px;
+}
+
+.pseudo-clase-hover{
+    font-size: 20px;
+}
+
+.pseudo-clase-hover:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.pseudo-clase-link-hover{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.pseudo-clase-link-hover:hover{
+    text-decoration: underline;
+}
+
+.pseudo-clase-link-hover:active{
+    font-size: 18px;
+    color: orange;
+}
+
+.pseudo-clase-link-hover:focus{
+    color: violet;
+    border: 2px dotted #444;
+}
+
+input:active{
+    background-color: yellow;
+}
+
+input:focus{
+    background-color: blue;
+}
+
+.hijos-pseudo p:first-child{
+    font-size: 20px;
+    background-color: blue;
+}
+
+.hijos-pseudo p:last-child{
+    background-color: brown;
+}
+
+.hijos-pseudo p:nth-child(3){
+    background-color: rebeccapurple;
+}
+
+/* para los hijos pares */
+.hijos-pseudo p:nth-child(2n){
+    background-color: tomato;
+}
+
+/* para los hijos impares */
+.hijos-pseudo p:nth-child(2n-1){
+    background-color: rosybrown;
+}
+
+.prueba-before::before{
+    content: 'hola ';
+    color: red;
+    font-size: 20px;
+    width: 12px;
+    height: 12px;
+    padding: 6px;
+    
+}
+
+.prueba-after::after{
+    content: ' hola';
+    color: yellow;
+    background-color: blue;
+    width: 12px;
+    height: 12px;
+    padding: 6px;
+}
+
+.prueba-first-letter::first-letter{
+    color: aqua;
+    font-size: 34px;
+    text-decoration: underline;
+}
+
+.input1:required{
+    border: 1px solid red;
+}
+
+.input1:valid{
+    background-color: blue;
+    color: white;
+}
+
+.input1:invalid{
+    background-color: red;
+    color: white;
+}
+
+.padre ul li:nth-child(3){
+    background-color: orange;
+}
+
+.selecciona-este-li{
+ background-color: aquamarine;
+}
+
+.container{
+    color: blue;
+    font-size: 10px;
+    border: 1px solid gray;
+}
+
+.container .child{
+    color: red;
+}
+
+.child{
+    border: inherit;
+    font-size: 16px;
+}
+
+.miparrafo{
+    padding: 10px;
+    color: red;
+}
+
+.miparrafo{
+    background-color: gray;
+    color: blue
+}
+
+/* unidades de medida absolutas:son aquellas que no cambian
+unidades de medida relativa: si van a cambiar */
+.caja1{
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+}
+
+.caja2{
+    background-color: greenyellow;
+    width: 50%;
+    font-size: 30px;
+}
+
+.caja3{
+    background-color: olive;
+    width: 50%;
+    /* font-size: 20px; */
+    font-size: 1em;
+}
