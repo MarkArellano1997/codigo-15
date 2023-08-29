@@ -8,7 +8,7 @@ body{
 }
 
 .principal__section{
-    background: url("/semana4/reto-5/assets/desktop/image-hero.jpg");
+    background: url("./semana4/reto-5/assets/desktop/image-hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px;
