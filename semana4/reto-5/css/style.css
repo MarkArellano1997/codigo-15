@@ -8,7 +8,7 @@ body{
 }
 
 .principal__section{
-    background: url("./semana4/reto-5/assets/desktop/image-hero.jpg");
+    background: url("/semana4/reto-5/assets/desktop/image-hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px;
@@ -160,6 +160,10 @@ main{
     font-family: "Josefin Sans", sans-serif;
     width: 20%;
 }
+
+.button__mobile{
+    display: none;
+}    
 
 .footer{
     background-color: #000;
@@ -349,5 +353,14 @@ main{
         margin: auto;
         margin-bottom: 20px;
     }
+
+    .button__mobile{
+        display: block;
+        background-color: #fff;
+        height: 50px;
+        width: 150px;
+        padding: 10px 10px;
+        margin: auto;
+    }   
 
 }

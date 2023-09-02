@@ -15,11 +15,15 @@
     background: url(/semana3/reto-4/assets/image/bg-main-desktop.png);
     width: 30%;
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid;
 }
 
 .part-2{
     width: 70%;
     height: 100vh;
+    border: solid;
 }
 
 img{
@@ -47,29 +51,4 @@ img{
     gap: 10px;
     margin-left: 20%;
     margin-top: 10px;
-}
-
-
-
-input{
-    height: 30px;
-    width: 300px;
-}
-
-.part-2-input-2{
-    display: flex;
-    gap: 10px;
-    margin-left: 20%;
-    margin-top: 10px;
-}
-
-/* .part-2-input-2>input{
-    flex-direction: row;
-    width: 50px;
-} */
-
-.prueba .input-2{
-    display: flex;
-    flex-direction: row;
-    background-color: aqua;
 }
