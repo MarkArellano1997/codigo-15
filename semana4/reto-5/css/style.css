@@ -8,7 +8,7 @@ body{
 }
 
 .principal__section{
-    background: url("/semana4/reto-5/assets/desktop/image-hero.jpg");
+    background: url("../assets/desktop/image-hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 60px;
@@ -123,35 +123,35 @@ main{
 }
 
 .earth{
-    background: url("/semana4/reto-5/assets/desktop/image-deep-earth.jpg");
+    background: url("../assets/desktop/image-deep-earth.jpg");
 }
 
 .arcade{
-    background: url("/semana4/reto-5/assets/desktop/image-night-arcade.jpg");
+    background: url("../assets/desktop/image-night-arcade.jpg");
 }
 
 .soccer{
-    background: url("/semana4/reto-5/assets/desktop/image-soccer-team.jpg");
+    background: url("../assets/desktop/image-soccer-team.jpg");
 }
 
 .car{
-    background: url("/semana4/reto-5/assets/desktop/image-grid.jpg");
+    background: url("../assets/desktop/image-grid.jpg");
 }
 
 .trip{
-    background: url("/semana4/reto-5/assets/desktop/image-from-above.jpg");
+    background: url("../assets/desktop/image-from-above.jpg");
 }
 
 .sky{
-    background: url("/semana4/reto-5/assets/desktop/image-pocket-borealis.jpg");
+    background: url("../assets/desktop/image-pocket-borealis.jpg");
 }
 
 .mars{
-    background: url("/semana4/reto-5/assets/desktop/image-curiosity.jpg");
+    background: url("../assets/desktop/image-curiosity.jpg");
 }
 
 .wave{
-    background: url("/semana4/reto-5/assets/desktop/image-fisheye.jpg");
+    background: url("../assets/desktop/image-fisheye.jpg");
 }
 
 .gallery div h3{
@@ -222,7 +222,7 @@ main{
 
     .principal__section{
         padding: 20px;
-        background: url("/semana4/reto-5/assets/mobile/image-hero.jpg");
+        background: url("../assets/mobile/image-hero.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         height: 80vh;
@@ -291,35 +291,35 @@ main{
     }
 
     .earth{
-        background: url("/semana4/reto-5/assets/mobile/image-deep-earth.jpg");
+        background: url("../assets/mobile/image-deep-earth.jpg");
     }
     
     .arcade{
-        background: url("/semana4/reto-5/assets/mobile/image-night-arcade.jpg");
+        background: url("../assets/mobile/image-night-arcade.jpg");
     }
     
     .soccer{
-        background: url("/semana4/reto-5/assets/mobile/image-soccer-team.jpg");
+        background: url("../assets/mobile/image-soccer-team.jpg");
     }
     
     .car{
-        background: url("/semana4/reto-5/assets/mobile/image-grid.jpg");
+        background: url("../assets/mobile/image-grid.jpg");
     }
     
     .trip{
-        background: url("/semana4/reto-5/assets/mobile/image-from-above.jpg");
+        background: url("../assets/mobile/image-from-above.jpg");
     }
     
     .sky{
-        background: url("/semana4/reto-5/assets/mobile/image-pocket-borealis.jpg");
+        background: url("../assets/mobile/image-pocket-borealis.jpg");
     }
     
     .mars{
-        background: url("/semana4/reto-5/assets/mobile/image-curiosity.jpg");
+        background: url("../assets/mobile/image-curiosity.jpg");
     }
     
     .wave{
-        background: url("/semana4/reto-5/assets/mobile/image-fisheye.jpg");
+        background: url("../assets/mobile/image-fisheye.jpg");
     }
 
     .footer{
